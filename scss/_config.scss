@@ -1,0 +1,16 @@
+/*** VARIABLES & FUNCTIONS ***/
+
+$primary-color: hsl(179, 62%, 43%);
+$light-primary: hsl(179, 47%, 51%);
+$secondary-color: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(217, 22%, 67%);
+$padding: 2rem;
+
+@mixin flex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
